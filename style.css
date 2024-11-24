@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh; /* Ensure the background covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for readability */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  /* Title Section */
+  h1 {
+    margin: 20px 0;
+    font-size: 36px; /* Larger title font */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Top Section (Photo and Name Button Side by Side) */
+  .top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .photo {
+    width: 200px; /* Adjust to make the photo larger */
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden; /* Ensure the image fits within the photo container */
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the photo scales correctly */
+  }
+  
+  /* Name Button */
+  .name-button {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-size: 22px;
+  }
+  
+  /* Bottom Section (Stacked Buttons) */
+  .bottom-section {
+    margin-top: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 15px 25px; /* Larger buttons */
+    margin: 15px 0;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px; /* Larger button text */
+    transition: background-color 0.3s;
+    width: 220px; /* Fixed width for uniform buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button:hover {
+    background-color: #666;
+  }
+  
+  /* Post Scriptum Section */
+  .post-scriptum {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #ddd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .post-scriptum p {
+    margin: 0;
+    padding: 0;
+  }
+  
